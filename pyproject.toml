@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "serverless-api"
+version = "0.1.0"
+description = ""
+authors = ["jpuente10 <puenteelizondo02@gmail.com>"]
+readme = "README.md"
+packages = [{include = "serverless_api"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+npm = "^0.1.1"
+boto3 = "^1.28.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
